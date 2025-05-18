@@ -22,9 +22,9 @@ Results:
  - loss: 0.5602
  - The high loss rate could indicate underfitting the model. Try again.
 
-![Model 1 History](21-Neural-Networks-Deep-Learning/Model_1/first_alphabet_soup_history.png)
+![Model 1 History](Model_1/first_alphabet_soup_history.png)
 
-![Modle 1 Accuracy](21-Neural-Networks-Deep-Learning/Model_1/first_alphabet_soup_accuracy.png)
+![Modle 1 Accuracy](Model_1/first_alphabet_soup_accuracy.png)
 
 **Second_Model_AlphabetSoupCharity_Optimization.ipynb**
 
