@@ -37,9 +37,9 @@ Results:
  - loss: 0.5602
  - The results are the same. Try again. 
 
-![Model 2 History](21-Neural-Networks-Deep-Learning/Model_2/second_alphabet_soup_history.png)
+![Model 2 History](Model_2/second_alphabet_soup_history.png)
 
-![Modle 2 Accuracy](21-Neural-Networks-Deep-Learning/Model_2/second_alphabet_soup_accuracy.png)
+![Modle 2 Accuracy](Model_2/second_alphabet_soup_accuracy.png)
 
 **Third_Model_AlphabetSoupCharity_Optimization.ipynb**
 
@@ -52,9 +52,9 @@ Results:
  - loss: 0.5595
  - The results are even farther from the target value of 75% accuracy. Try again. 
 
-![Model 3 History](21-Neural-Networks-Deep-Learning/Model_3/third_alphabet_soup_history.png)
+![Model 3 History](Model_3/third_alphabet_soup_history.png)
 
-![Modle 3 Accuracy](21-Neural-Networks-Deep-Learning/Model_3/third_alphabet_soup_accuracy.png)
+![Modle 3 Accuracy](Model_3/third_alphabet_soup_accuracy.png)
 
 **Fourth_Model_AlphabetSoupCharity_Optimization.ipynb**
 
@@ -67,9 +67,9 @@ Results:
  - loss: 0.5637
  - The results with 3 hidden are farther from the target than 2 hidden layers. 
 
-![Model 4 History](21-Neural-Networks-Deep-Learning/Model_4/fourth_alphabet_soup_history.png)
+![Model 4 History](Model_4/fourth_alphabet_soup_history.png)
 
-![Modle 4 Accuracy](21-Neural-Networks-Deep-Learning/Model_4/fourth_alphabet_soup_accuracy.png)
+![Modle 4 Accuracy](Model_4/fourth_alphabet_soup_accuracy.png)
 
 
 ## Summary
