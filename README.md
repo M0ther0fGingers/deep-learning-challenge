@@ -2,16 +2,12 @@
 Module 21 Challenge Files
 
 ### Overview
-The purpose of this is to create a model to assist the nonprofit Alphabet Soup seelct applications for funding. The model is based on data provided by Aphabet Soup and uses a neural network model to create a predictive analysis. The model uses a target value and creates two datasets, a training and test set. The results are compared to determine the most successfully optimizated model. 
-
-
-### Setup
-Datasource
- - Target: The target value is the "Is_Successful" column. 
- - Other values are Application Type, Affiliation, Classification, Use Case, Organization, Status, Income Amt, Special Considerations, and Ask Amount. 
+The purpose of this code is to create a model to assist the nonprofit Alphabet Soup selct applications for funding. The model is based on data provided by Aphabet Soup and uses a neural network model to create a predictive analysis. The model uses a target value and creates two datasets, a training and test set. The results are compared to determine the most successfully optimizated model. 
 
 ### Results
-The model was optimized by adjusting the number of neurons per layer, removing the column "SPECIAL_CIRCUMSTANCES", and adjusting the number of bins for small values in the CLASSIFICATION and APPLICATION_TYPE columns. The model was run 4 times making adjustments each time as shown below. The best results in all 4 trials was accuracy of 72.61% and loss of 56.02%. No attempt hit the target value of 75% accuracy.
+The models were optimized by adjusting the number of neurons per layer, changing the activation type, adding a third hidden layer, and removing the column "SPECIAL_CIRCUMSTANCES". The model was run 4 times making adjustments each time as shown below. The best results in all 4 optimization models was accuracy of 72.61% and loss of 56.02%. No attempt hit the target value of 75% accuracy.
+ - Target: The target value is the "Is_Successful" column. 
+ - Feature: variables are Application Type, Affiliation, Classification, Use Case, Organization, Status, Income Amt, Special Considerations(dropped to attempt to optmimize the data), and Ask Amount. EIN and NAME columns were dropped because they were neither targets nor features. 
 
 
 **First_Model_AlphabetSoupCharity_Optimization.ipynb**
@@ -62,7 +58,7 @@ Results:
 
 **Fourth_Model_AlphabetSoupCharity_Optimization.ipynb**
 
-Setup: use tanh activation 
+Setup: use tanh activation s
  - 3 Hidden Layers, 80, 50, activation relu
  - 1 output layer, sigmoid
 
@@ -76,5 +72,6 @@ Results:
 ![Modle 4 Accuracy](21-Neural-Networks-Deep-Learning/Model_4/fourth_alphabet_soup_accuracy.png)
 
 
-
+## Summary
+The neural network model failed to meet the target of 75% in all 4 trials. A different model should be developed for this dataset. A Random Forest model might work better for this dataset that has many features and lots of noise. 
 
